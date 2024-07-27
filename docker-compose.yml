@@ -10,3 +10,4 @@ services:
       - "443:443"
     volumes:
       - ${CADDY_FILE_PATH:-./Caddyfile}:/etc/caddy/Caddyfile
+      - ./caddy-data:/data/caddy

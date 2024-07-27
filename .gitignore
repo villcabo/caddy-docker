@@ -1,2 +1,4 @@
 Caddyfile*
 .env
+
+/caddy-data/
