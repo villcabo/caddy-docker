@@ -16,7 +16,7 @@ touch Caddyfile
 ```
 
 ```
-monitorpgw.multired.com.bo {
+yourdomiain.com {
   reverse_proxy localhost:3000
   tls {
     on_demand
