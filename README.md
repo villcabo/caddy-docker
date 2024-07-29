@@ -16,7 +16,7 @@ touch Caddyfile
 ```
 
 ```
-yourdomiain.com {
+yourdomain.com {
   reverse_proxy localhost:3000
   tls {
     on_demand
